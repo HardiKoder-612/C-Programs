@@ -1,0 +1,35 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+  #include<stdio.h>
+
+    void fun(int*,int*);
+
+    int main()
+
+    {
+
+       int A=10,B=20;
+
+       printf("\nValues before calling %d, %d",A,B);
+
+       fun(&A,&B);              //Statement   1
+
+       printf("\nValues after calling %d, %d",A,B);
+
+    }
+
+    void fun(int *X,int *Y)          //Statement   2
+
+    {
+
+       *X=11;
+
+       *Y=22;
+
+    }

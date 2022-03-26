@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+int i;
+printf("Enter the integer to be displayed: ");
+scanf("%d",&i);
+printf("\nInteger is: %d",i);
+return 0;
+}
